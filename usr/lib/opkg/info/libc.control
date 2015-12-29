@@ -1,0 +1,13 @@
+Package: libc
+Version: 0.9.33-106
+Depends: 
+Provides: 
+Source: package/base-files
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 223668
+Description:  C library

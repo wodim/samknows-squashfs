@@ -1,0 +1,13 @@
+Package: libcurl
+Version: 7.23.1-1
+Depends: libopenssl, zlib
+Provides: 
+Source: feeds/packages/libs/curl
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 131008
+Description:  A client-side URL transfer library

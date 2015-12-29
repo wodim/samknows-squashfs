@@ -1,0 +1,14 @@
+Package: busybox
+Version: 1.19.4-1
+Depends: 
+Provides: 
+Source: package/busybox
+Section: base
+Status: unknown ok not-installed
+Essential: yes
+Priority: optional
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 235720
+Description:  The Swiss Army Knife of embedded Linux.
+ It slices, it dices, it makes Julian Fries.

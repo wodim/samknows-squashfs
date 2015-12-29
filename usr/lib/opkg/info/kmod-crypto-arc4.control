@@ -1,0 +1,13 @@
+Package: kmod-crypto-arc4
+Version: 3.3.3-1
+Depends: kernel (=3.3.3-1-58a5014add250fa07372c5f87ef721db), kmod-crypto-core
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 1021
+Description:  ARC4 (RC4) cipher CryptoAPI module

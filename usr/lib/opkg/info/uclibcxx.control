@@ -1,0 +1,13 @@
+Package: uclibcxx
+Version: 0.2.2-4
+Depends: 
+Provides: 
+Source: feeds/packages/libs/uclibc++
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 63389
+Description:  C++ library for embedded systems

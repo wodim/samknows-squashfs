@@ -1,0 +1,13 @@
+Package: uboot-envtools
+Version: 2011.06-4
+Depends: 
+Provides: 
+Source: package/uboot-envtools
+Section: utils
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 8778
+Description:  This package includes tools to read and modify U-Boot bootloader environment.

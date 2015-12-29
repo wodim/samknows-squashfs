@@ -1,0 +1,20 @@
+#!/bin/sh /etc/rc.common
+# Copyright (C) 2006 OpenWrt.org
+
+START=70
+STOP=70
+
+start() {
+        echo -e "*/5 * * * * /etc/setup.sh > /dev/null 2>&1\n0 6 * * * /usr/sbin/udhcpcrestart.sh > /dev/null 2>&1" | crontab -
+        /etc/setup.sh &
+}
+
+restart() {
+        stop
+        start
+}
+
+stop() {
+        crontab -d -u root
+        rm -rf /tmp/ispmon
+}

@@ -1,0 +1,13 @@
+Package: libgcc
+Version: 4.6-linaro-106
+Depends: 
+Provides: 
+Source: package/base-files
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 31293
+Description:  GCC support library

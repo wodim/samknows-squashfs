@@ -1,0 +1,13 @@
+Package: base-files-network
+Version: 4
+Depends: 
+Provides: 
+Source: package/base-files-network
+Section: base
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 8047
+Description:  This package contains the network system scripts for OpenWrt.

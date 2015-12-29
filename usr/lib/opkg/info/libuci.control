@@ -1,0 +1,13 @@
+Package: libuci
+Version: 2012-03-28.1-1
+Depends: 
+Provides: 
+Source: package/uci
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 15489
+Description:  C library for the Unified Configuration Interface (UCI)

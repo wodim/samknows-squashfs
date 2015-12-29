@@ -1,0 +1,13 @@
+Package: kmod-leds-gpio
+Version: 3.3.3-1
+Depends: kernel (=3.3.3-1-58a5014add250fa07372c5f87ef721db)
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 2075
+Description:  Kernel module for LEDs on GPIO lines

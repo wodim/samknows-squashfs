@@ -1,0 +1,17 @@
+Package: ntpdate
+Version: 4.2.6p5-1
+Depends: libcap
+Provides: 
+Source: feeds/packages/net/ntpd
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: ar71xx
+Installed-Size: 36144
+Description:  The ISC ntp suite is a collection of tools used to synchronize the
+ system clock with remote NTP time servers and run/montior local NTP
+ servers.
+ .
+ This package contains ntpdate.
